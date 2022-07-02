@@ -1,0 +1,73 @@
+*, html body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background: #282828;
+}
+
+.main-wrapper {
+    width: 1365px;
+    margin: 0 auto;
+    padding: 43px 0 76px;
+}
+
+header li {
+    margin-right: 47px;
+    float: left;
+    
+}
+
+header li :first-child {
+    margin-left: 40px;
+}
+
+header li :last-child a {
+    position: relative;
+    padding-right: 19px;
+}
+
+header li :last-child a:after{
+    content:'';
+    background: url("../images/Polygon\ 1.png") no-repeat center;
+    width: 15px;
+    height: 9px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 27px;
+
+}
+
+header a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 17px 0;
+    display: block;
+    
+}
+
+.logo {
+    display: block;
+    width: 87px;
+    height: 64px;
+    background: url("../images/Group/ 1.png") no-repeat center 100%;
+}
+
+.submenu {
+    background: #252728;
+    padding: 16px;
+}
+.submenu li {
+    float:none;   
+}
+.submenu li a {
+    padding: 8px 0;
+}
